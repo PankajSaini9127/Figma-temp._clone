@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+}
+.logo{
+    height: 35px;
+    margin-top: 34px;
+}
+.navList{
+    padding: 0px 110px;
+    padding-top: 15px;
+}
+.NavItemList{
+  display: flex;
+}
+.listItem{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.navButton {
+    height: 35px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.signIn{
+    background-color: white;
+    border: none;
+}
+.signUp {
+    background-color: white;
+    border-radius: 17px;
+    border: 1px solid orangered;
+}
+
+@media only screen and (max-width: 450px){
+    .navbar{
+        width: 100vw;
+        display: block;
+    }
+    .logo{
+        height: 55px;
+        margin-top: 15px;
+        padding: 0 70px;
+    }
+    .navList{
+        padding-top: 10px;
+    }
+    .NavItemList{
+        display: inline;
+    }
+    .navbuttons{
+        margin: auto;
+        width: 60vw;
+    }
+    .navButton {
+        height: 30px;
+        width: 80px;
+        margin-top: 20px;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width: 451px){
+    .navbar{
+        width: 100vw;
+    }
+    .logo{
+        margin-top: 10 px;
+        padding: 0 10px;
+    }
+    .navList{
+        padding: 0;
+        padding-top: 15px;
+    }
+    .listItem{
+        padding: 10px ;
+    }
+    .navButton {
+        height: 35px;
+        width:80px;
+    }
+}

@@ -1,0 +1,101 @@
+.customberMain{
+    margin-top: 80px;
+}
+.customberHead{
+    font-size: 40px;
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+}
+.customberSubHead{
+    font-size: 20px;
+    width: 580px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.subscribeaDiv{
+    height: 250px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+}
+.SubscribeContent{
+   width: 50%;
+   padding: 0 30px;
+}
+.subscribeHead{
+    margin: 45px;
+    margin-bottom: 10px;
+}
+
+.subscribeSubHead{
+    padding: 0 45px;
+    margin: 0;
+    font-size: 18px;
+}
+.subscribeBtn{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribeBtn button {
+    height: 60px;
+    width: 200px;
+    background-color: #F53838;
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 400;
+    border: none;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 450px){
+    .customberMain{
+        margin-top: 100px;
+    }
+    .customberHead{
+        font-size: 35px;
+        width: 90vw;
+    }
+    .customberSubHead{
+        width: 90vw;
+    }
+    .subscribeaDiv{
+    width: 90vw;
+    display: block;
+   }
+   .SubscribeContent{
+    width: 90vw;
+    margin: auto;
+    padding: 0 ;
+ }
+ .subscribeBtn button {
+ margin-top: 50px; 
+}
+}
+
+@media screen and (max-width: 750px) and (min-width: 451px){
+    .subscribeaDiv{
+        width: 100vw;
+        display: block;
+    }
+    .subscribeBtn button {
+        height: 40px;
+        font-size: 20px;
+    }
+    .SubscribeContent{
+        width: 90vw;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 31px;
+     }
+     .subscribeBtn{
+        width: 90vw;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

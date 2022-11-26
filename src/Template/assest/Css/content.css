@@ -1,0 +1,145 @@
+.content{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+}
+
+.content1{
+    width: 550px;
+}
+.content1heading{
+    margin-top: 25px;
+    font-size: 50px;
+}
+.content1heading span {
+    font-weight: 600;
+}
+.getStartedBtn{
+    height: 45px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: #F53838;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.mainImage{
+    height: 60vh;
+    width: 40vw;
+}
+
+.maincontent1{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+}
+.mainContentItem{
+    width: 33vw;
+    display: flex;
+}
+.content1img{
+    height: 25px;
+    margin-top: 27px;
+}
+
+
+.sideSection3{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.sectionHead3{
+    font-size: 49px;
+    margin-top: 50px;
+
+}
+.sectionSubhead3{
+   display: block;
+   font-size: 20px;
+   margin-top: 15px;
+
+}
+
+
+.contentlistitem{
+    list-style: none;
+    font-size: 20px;
+}
+.contectListimg{
+    height: 20px;
+}
+.ListSection3{
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 450px){
+    .content{
+        width: 100vw;
+        display: block;
+    }
+    .content1{
+        width: 90vw;
+        margin-left: 10px;
+    }
+    .content1heading{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .getStartedBtn{
+        height: 50px;
+        width: 80vw;
+        font-size: 22px;
+        margin: auto;
+    }
+    .mainImage{
+        height:250px;
+        width: 350px;
+        margin: auto;
+    }
+    .maincontent1{
+        width: 90vw;
+        display: flex;
+    }
+    .content2nd{
+        display: block;
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width: 451px){
+    .content{
+        width: 100vw;
+        display: block;
+    }
+    .content1{
+        width: 100vw;
+        margin-left: 15px;
+    }
+    .content1subhead{
+        width: 80vw
+    }
+    .getStartedBtn{
+        height: 50px;
+        width: 350px;
+        font-size: 24px;
+        margin: 20px 150px;
+    }
+    .mainImage{
+        height: 350px;
+        width: 80vw;
+        margin-bottom: 50px;
+    }
+    .maincontent1{
+        width: 100vw;
+    }
+    .content2nd{
+        display: block;
+        width: 100vw;
+    }
+    .ListSection3{
+        padding-left: 200px;
+        margin-bottom: 80px;
+    }
+}

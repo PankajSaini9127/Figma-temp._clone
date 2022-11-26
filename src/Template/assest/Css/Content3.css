@@ -1,0 +1,16 @@
+.EcomServices {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+.EcomWrapDiv {
+  margin: 10px 20px;
+}
+
+.ecomImg {
+  width: 100%;
+  height: 60px;
+  margin: 15px;
+}
